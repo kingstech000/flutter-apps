@@ -36,6 +36,7 @@ class ResultPage extends StatelessWidget {
                 child: Text(
                   "Your Result",
                   style: numberStyle,
+                  textAlign: TextAlign.center,
                 ),
               ),
             ),
