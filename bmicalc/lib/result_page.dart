@@ -56,11 +56,13 @@ class ResultPage extends StatelessWidget {
                     Text(
                       bmiText,
                       style:
-                          TextStyle(fontSize: 100, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 100,
+                          fontWeight: FontWeight.bold),
                     ),
                     Text(
                       interpretation,
                       style: TextStyle(fontSize: 18),
+                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),
